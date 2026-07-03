@@ -5,4 +5,4 @@ resources:
 images:
 - name: 007427784670.dkr.ecr.ap-south-1.amazonaws.com/sample-app
   newName: 007427784670.dkr.ecr.ap-south-1.amazonaws.com/sample-app
-  newTag: ffee95f
+  newTag: da3a8fc
