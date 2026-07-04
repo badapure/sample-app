@@ -4,5 +4,4 @@ resources:
 - ../../base
 images:
 - name: 007427784670.dkr.ecr.ap-south-1.amazonaws.com/sample-app
-  newName: 007427784670.dkr.ecr.ap-south-1.amazonaws.com/sample-app
-  newTag: da3a8fc
+  newTag: latest
