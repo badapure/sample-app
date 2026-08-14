@@ -27,6 +27,15 @@ jobs:
       - name: Set image tag
         id: vars
         run: echo "tag=${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
+        
+      # ADD THIS STEP
+      - name: Debug GitHub context
+        run: |
+          echo "Repository=$GITHUB_REPOSITORY"
+          echo "Ref=$GITHUB_REF"
+          echo "Event=$GITHUB_EVENT_NAME"
+          echo "Actor=$GITHUB_ACTOR"
+          echo "SHA=$GITHUB_SHA"
 
       - name: Configure AWS credentials (OIDC)
         uses: aws-actions/configure-aws-credentials@v4
