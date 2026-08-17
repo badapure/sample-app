@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sample-app
-          image: 007427784670.dkr.ecr.ap-south-1.amazonaws.com/sample-app:latest
+          image: 985220929938.dkr.ecr.ap-south-1.amazonaws.com/sample-app:624420e
           ports:
             - containerPort: 8080
           readinessProbe:
